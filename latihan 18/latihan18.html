@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Latihan DOM | event </title>
+</head>
+<body>
+	<p>
+		Latihan Event javascript
+	</p>
+
+	<button>Click Me!</button>
+
+	<script type="text/javascript">
+		// function showme(){
+		// 	var par = document.querySelector('p');
+		// 	par.innerHTML = 'Latihan 18';
+		// }
+		// function showme(){
+		// 	var par = document.querySelector('p');
+		// 	par.style.backgroundColor = 'red';
+
+		// }
+		// function showme(){
+		// 	var par = document.querySelector('p');
+		// 	par.style.color = 'white';
+		// }
+		// ctrl + s
+		var btn = document.querySelector('button');
+		btn.addEventListener('click',function(){
+			var par = document.querySelector('p');
+			par.innerHTML = 'Latihan 18';
+
+		})
+		var btn = document.querySelector('button');
+		btn.addEventListener('click',function(){
+			var par = document.querySelector('p');
+			par.style.color = 'white';
+
+		})
+		var btn = document.querySelector('button');
+		btn.addEventListener('click',function(){
+			var par = document.querySelector('p');
+			par.style.backgroundColor = 'lightblue';
+		})
+	</script>
+</body>
+</html>

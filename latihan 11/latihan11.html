@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 11</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <!--
+ini adalah latihan 11
+fokus kita malam ini adalah untuk membuat 
+> link 
+> list 
+> image
+> form 
+
+-->
+
+<!-- untuk membuat sebuah link, kita harus mengetikkan kata anchor di dalam sebuah elemen yang namanya <a> -->
+<h1>ini adalah <a href="https://google.com" >jalan menuju goole.com</a> </h1>
+
+> unordered list <br>
+Pembalajaran kita malam ini adalah : 
+<ul>
+    <li>
+        ini adalah <a href="https://google.com">link</a>
+    </li>
+    <li> list baru dalam list
+        <ul>
+            <li>List baru dalam list 
+                <ul>
+                    <li>list</li>
+                    <li>list</li>
+                    <li>list</li>
+                    <li>list</li>
+                    <li>list</li>
+                </ul>
+            </li>
+            <li>list</li>
+            <li>list</li>
+            <li>list</li>
+        </ul>
+    </li>
+    <li>image</li>
+    <li>form</li>
+</ul>
+
+> ordered list <br>
+Pembalajaran kita malam ini adalah : 
+<ol>
+    <li>link</li>
+    <li>list</li>
+    <li>image</li>
+    <li>form</li>
+</ol>
+
+ini pengolahan gambar <br>
+
+<!-- untuk memasukkan photo atau gambar ke dalam sebuah website, yang perlu kita siapkan adalah, (1) gambarnya atau jika gambar itu dari web lain, silahkan copy alamat gambarnya (2) nama untuk gambar 
+image atau gambar, dimasukkan dalam element <img/>
+-->
+<img src="./image.png" alt="image" style="width:20%"> <br>
+
+ini pengolahan form <br>
+<!-- 
+    untuk membuat form, apa saja yang diperlukan
+    1. label -> memberi nama setiap kolom yang akan diisi
+    2. input -> menghandle data yang dimasukkan oleh user
+ -->
+
+ <form action="process.php" method="post/get">
+    <label>Username: </label>
+    <input type="text" name="username" placeholder="username"> <br>
+    <label>Password:</label>
+    <input type="password" name="password" placeholder="password"> <br>
+    <input type="submit" value="Login" name="login">
+</form>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan 8 | Javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 style="text-align:center"> DATA PELANGGAN BERITA</h1>
+  <button onclick="showCard();">Card View</button> 
+  <button onclick="showTable();">Table View</button>
+	<hr>
+		<table id="dataPelangganTbl">
+			<thead>
+				<tr>
+					<td rowspan="2">No</td>
+					<td colspan="3">Data</td>
+					<td rowspan="2">Aksi</td>
+				</tr>
+				<tr>
+					<td>Nama</td>
+					<td>Email</td>
+					<td>No. HP</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Hasan</td>
+					<td>emailsaya@gmail.com</td>
+					<td>0812 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Data lain</td>
+					<td>datalain@gmail.com</td>
+					<td>0813 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Data Baru</td>
+					<td>databaru@gmail.com</td>
+					<td>0843 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+    <br>
+	<!-- card view -->
+	<div id="content">
+	  <div class="wrapper">
+			<div class="box1">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn1">Konfirmasi</button>
+		</div>
+		<div class="wrapper">
+			<div class="box2">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn2">Konfirmasi</button>
+		</div>
+		<div class="wrapper">
+			<div class="box3">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn3">Konfirmasi</button>
+		</div>
+		<div class="wrapper">
+			<div class="box1">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn1">Konfirmasi</button>
+		</div>
+		<div class="wrapper">
+			<div class="box2">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn2">Konfirmasi</button>
+		</div>
+		<div class="wrapper">
+			<div class="box3">
+				<p>photo pelanggan</p>
+			</div>
+			<button class="btn3">Konfirmasi</button>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./javascript.js"></script>
+</body>
+</html>

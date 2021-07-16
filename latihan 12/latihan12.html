@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 12</title>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+    <!-- 
+        membangun sebuah navbar 
+        navigation bar {bar navigasi}
+    -->
+   <nav>
+       <div class="title">
+           Working With CSS
+       </div>
+       <div class="menu">
+           <a href="#link">Link</a>
+           <a href="#list">List</a>
+           <a href="#img">Image</a>
+           <a href="#form">Form</a>
+       </div>
+   </nav>
+
+<section id="link">
+    <h1>link</h1>
+    <h1>ini adalah <a href="https://google.com" >jalan menuju goole.com</a> </h1>
+</section>   
+
+<section id="list">
+    <h1>List</h1>
+    <div class="ul">
+        <h1>unordered list</h1>
+        <ul>
+            <li>
+                <a href="https://google.com">link</a>
+            </li>
+            <li> List</li>
+            <li>image</li>
+            <li>form</li>
+        </ul>
+    </div>
+    <div class="ol">
+        <h1>ordered list</h1>
+        <ol>
+            <li>link</li>
+            <li>list</li>
+            <li>image</li>
+            <li>form</li>
+        </ol>
+    </div>
+</section>
+
+<!-- untuk memasukkan photo atau gambar ke dalam sebuah website, yang perlu kita siapkan adalah, (1) gambarnya atau jika gambar itu dari web lain, silahkan copy alamat gambarnya (2) nama untuk gambar 
+image atau gambar, dimasukkan dalam element <img/>
+-->
+<section id="img">
+    <h1>Image</h1> <br>
+    <div>
+        <img src="./image.png" alt="image">
+    </div>
+</section>
+
+<section id="form">
+    <h1>Form </h1>
+    <!-- 
+        untuk membuat form, apa saja yang diperlukan
+        1. label -> memberi nama setiap kolom yang akan diisi
+        2. input -> menghandle data yang dimasukkan oleh user
+     -->
+
+     <form action="process.php" method="post/get">
+        <label>Username: </label>
+        <input type="text" name="username" placeholder="username"> <br>
+        <label>Password:</label>
+        <input type="password" name="password" placeholder="password"> <br>
+        <input type="submit" value="Login" name="login">
+    </form>
+</section>
+</body>
+</html>

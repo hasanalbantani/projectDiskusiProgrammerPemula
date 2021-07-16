@@ -1,0 +1,21 @@
+*{
+	box-sizing: border-box;
+}
+a{
+	text-decoration:none;
+	color:dodgerblue
+}
+ul{
+	width: 400px;
+	background-color:darkslategrey;
+}
+li{
+	padding: 10px 12px;
+	color:#fff;
+	list-style: none;
+	border-top-right-radius: 14px;
+}
+li:nth-child(even){
+	background-color: salmon;
+	border-top-right-radius: 14px;;
+}

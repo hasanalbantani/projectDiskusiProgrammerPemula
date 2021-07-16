@@ -1,0 +1,107 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Latihan 6 | membuat Table</title>
+		<style type="text/css">
+			*{
+			  box-sizing:border-box;
+			}
+			h1, p{
+			  text-align:center;
+			}
+			table{
+			  width:100%;
+			  border-collapse:collapse;
+			}
+			thead tr td{
+			  font-weight:bold;
+			  background-color:#5db;
+			  border:1px solid #fff;
+			  color:#fff;
+			  padding:10px;
+			}
+			tbody tr td:nth-child(2){
+			text-align:left;
+			}
+			tr td{
+			  text-align:center;
+			  border:1px solid #ddd;
+			}
+			tbody tr:hover{
+			  background-color:rgba(0,0,0,0.01);
+			}
+			button{
+			  border:none;
+			  padding:10px;
+			  background-color:tomato;
+			  color:#fff;
+			  border-radius:6px;
+			}
+			button:nth-child(2){
+			  border:none;
+			  padding:10px;
+			  background-color:darkred;
+			  color:#fff;
+			  border-radius:6px;
+			}
+			@media screen and (max-width:700px){
+			  table{
+			    overflow-x:scroll;
+			  }
+			}
+		</style>
+	</head>
+	<body>
+		<h1 style="text-align:center">DATA PELANGGAN BERITA</H1>
+		<hr>
+		<table>
+			<thead>
+				<tr>
+					<td rowspan="2">No</td>
+					<td colspan="3">Data</td>
+					<td rowspan="2">Aksi</td>
+				</tr>
+				<tr>
+					<td>Nama</td>
+					<td>Email</td>
+					<td>No. HP</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Hasan</td>
+					<td>emailsaya@gmail.com</td>
+					<td>0812 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Data lain</td>
+					<td>datalain@gmail.com</td>
+					<td>0813 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Data Baru</td>
+					<td>databaru@gmail.com</td>
+					<td>0843 2121 1221</td>
+					<td>
+						<button id="editBtn">Edit</button>
+						<button id="delBtn">Delete</button>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<script type="text/javascript">
+		</script>
+	</body>
+</html>

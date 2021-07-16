@@ -1,0 +1,127 @@
+/*reset default*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+nav{
+	/*kasih baju ke nav*/
+	background-color: #000;
+	/*kasih warna tulisan*/
+	color: #fff;
+	/*kasih padding {gemuk}*/
+	padding: 10px 20px;
+	/*setting display | tampilan*/
+	display: flex;
+	flex-wrap: wrap;
+	/*setting posisi nav*/
+	position: fixed;
+	/*setting lebar nav*/
+	width: 100%;
+}
+.title{
+	/*setting display flex*/
+	flex: 60%;
+}
+.menu{
+	flex: 40%;
+	/*menengahkan tulisan {positioning}*/
+	text-align: center;
+}
+.menu a{
+	/*rubah warna link*/
+	color: #fff;
+	/*hilangkan garis bawah pada link*/
+	text-decoration: none;
+	/*set padding pada link*/
+	padding: 10px 20px;
+}
+section{
+	/*set padding*/
+	padding-top: 300px;
+	padding-bottom: 300px;
+	/*posisi tulisan*/
+	text-align: center;
+	/*set display*/
+	/*display: flex;*/
+}
+.ul{
+	/*menentukan lebar div yang isinya list*/
+	width: 400px;
+	/*menentukan warna div yang isinya list*/
+	background-color: #ddd;
+	/*set perataan text*/
+	text-align: left;
+	/*set padding*/
+	padding: 10px 20px;
+	/*set display div*/
+	display: inline-block;
+}
+.ol{
+	/*menentukan lebar div yang isinya list*/
+	width: 400px;
+	/*menentukan warna div yang isinya list*/
+	background-color: #aaa;
+	/*set perataan text*/
+	text-align: left;
+	/*set padding*/
+	padding: 10px 20px;
+	/*set display div*/
+	display: inline-block;
+}
+li{
+	/*untuk menghilangkan bullet and numbering*/
+	list-style: none;
+}
+img{
+	/*set lebar gambar*/
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 10px solid #fff;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.08);
+}
+form{
+	/*set lebar form*/
+	width: 100%;
+	/*set baju form*/
+	background-color: #000;
+	/*set padding*/
+	padding: 10px 20px;
+	/*set warna */
+	color: #fff;
+	/*set ukuran font*/
+	font-size: 20px;
+}
+input[type=text], input[type=password]{
+	/*set lebar input*/
+	width: 100%;
+	/*set tinggi input*/
+	height: 50px;
+	/*set warna latar*/
+	background-color: #ddd;
+	/*atur tajam siku*/
+	border-radius: 5px;
+	/*hilangkan garis tepi input*/
+	border: none;
+}
+input[type=submit]{
+	/*hilangkan garis tepi input*/
+	border: none;
+	/*atur warna latar*/
+	background-color: dodgerblue;
+	/*set padding*/
+	padding: 10px 20px;
+	/*set lebar tombol login*/
+	width: 50%;
+	/*atur jarak tepi atas*/
+	margin-top: 10px;
+}
+#link{background-color: #aaa}
+#list{background-color: #cde}
+#img{background-color: #aba}
+#form{background-color: #ced}
